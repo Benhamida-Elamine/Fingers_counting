@@ -2,7 +2,7 @@ import cv2
 import matplotlib.pyplot as plt 
 import os  
 import time  
-import ds as htm
+from Function import handDetector as htm 
 
 wCam , hCam = 480 , 600
 cap = cv2.VideoCapture(0)
